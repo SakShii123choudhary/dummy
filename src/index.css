@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 
+@layer components {
+  .calendar-tile {
+    @apply text-xl font-semibold py-4 rounded-full;
+  }
+  .calendar-active {
+    @apply bg-green-400 text-white;
+  }
+}
 body {
   @apply bg-black text-white;
 }
